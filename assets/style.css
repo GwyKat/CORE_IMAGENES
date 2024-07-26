@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.primero{
+    background-color: rgb(255, 215, 0);
+    width: 950px;
+    display: inline-flex;
+}
+img{
+    width: 250px;
+    height: 200px;
+    margin: 10px 60px 15px 40px;
+}
+.segundo{
+    background-color: rgba(0, 72, 255, 0.697);
+    width: 950px;
+    display: inline-flex;
+    justify-content:space-evenly;      
+}
+.tercero{
+    background-color: rgba(193, 11, 11, 0.919);
+    width: 950px;
+    display: inline-flex;
+}
+p{
+    background-color: rgba(119, 255, 0, 0.864);
+    text-align: center;
+    width: 950px;
+    padding: 10px 0px;
+    margin-top: -1px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
